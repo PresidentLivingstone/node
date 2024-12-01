@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HttpServer</title>
+</head>
+<body>
+    <h1>My Static Page</h1>
+
+    <p>Hello from the static page!</p>
+    <p>---------------------------------------------------___________________---------------------------</p>
+    <br>
+    <br>
+    <h2>FILL THE FORM TO SEE SOME DYNAMIC CONTENT</h2>
+    <br>
+    <form action="/dynamic" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="Livingstone">
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" value="22">
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
